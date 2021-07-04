@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    
+    <title>Main Street Cafe Website</title>
+    
+  </head>
+  
+  <body>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1" href="#">
+          <img id="logo"src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">Main Street</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <span class="navbar-social">
+            <a href="#"><img id="insta" src="images/insta.png" width="25" height="25" alt="instagram"></a>
+            <a href="#"><img id="twitter" src="images/twitter.png" width="25" height="25" alt="twitter"></a>
+            <a href="#"><img id="gmail" src="images/gmail.png" width="25" height="25" alt="gmail"></a>
+            <a href="#"><img id="youtube" src="images/youtube.png" width="30" height="30" alt="youtube"></a>
+          </span>
+        </div>
+      </nav>
+    
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active crop">
+      <img class="d-block w-100" src="https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80" alt="First slide">
+    </div>
+    <div class="carousel-item crop">
+      <img class="d-block w-100" src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE4fHxjb2ZmZWUlMjBjYWZlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Second slide">
+    </div>
+    <div class="carousel-item crop">
+      <img class="d-block w-100" id="third" src="https://images.pexels.com/photos/702251/pexels-photo-702251.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    
+    <div id="about"> 
+      <img id="line" src="https://www.oregon.gov/gcfs/PublishingImages/divider-line.png">
+      <h3 id="about-header">- About Us -</h3>
+      <p id="about-text"> Starting from 1998, we have been serving our creamy, house-made coffee for our customers. We offer some of the world’s finest fresh-roasted whole bean coffees along with freshly-baked goods daily. From the beginning, Main Street prioritizes the tradition of bringing customers a sense of connection. Our ultimate mission is to inspire and nurture the human spirit – one person, one cup, and one neighborhood at a time.</p>
+    </div>
+    
+    <div id="menu">
+    <img id="line" src="https://www.oregon.gov/gcfs/PublishingImages/divider-line.png">
+      <h3 id="menu-header">- Menu -</h3>
+      <p id="text">Check out our All-Day offers!<br>Pastries are limited quantity, get it before it runs out! </p>
+      <img id="menu-pic" src="images/menu.png" alt="menu picture" class="img-thumbnail">
+    </div>
+    
+    <div id="contact">
+    <img id="line" src="https://www.oregon.gov/gcfs/PublishingImages/divider-line.png">
+      <h3 id="survey-header">- Contact Us -</h3>
+      <p id="text">Call us at 604-xxx-xxxx or fill out the form below. <br> We will get back to you as soon as possible.</p>
+        <form id="survey-form">
+          <section id="survey-fields">
+            <label for="name" id="name-label">Name:</label> <br>
+            <input id="name" type="text" placeholder="Name" required> <br>
+            <label for="Email" id="email-label">Email:</label> <br>
+            <input id="email" type="email" placeholder="Email" required> <br>
+            <label for="dropdown">What are you getting in touch about?</label> <br>
+          <select id="dropdown" form="survey-form">
+            <option value="" disabled selected>select an option</option>
+            <option value="product-inquiries">General Inquiry</option>
+            <option value="product-inquiries">Information Request</option>
+            <option value="product-inquiries">Feedback</option>
+            <option value="product-inquiries">Takeout/Delivery Order Issues</option>
+            </select> <br>
+          <label for="comments">Your Message</label> <br>
+          <textarea style="height:50px;resize:vertical;" id="comments" placeholder="enter a comment"></textarea>
+        </section>
+
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]',{
+          speed:1000,
+          speedAsDuration: true
+      });
+  </script>
+  </body>
+</html>
