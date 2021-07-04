@@ -1,0 +1,108 @@
+body {
+  font-family: 'Special Elite', cursive !important;
+}
+
+#logo {
+  margin-right: 7px;
+  margin-top: -2px;
+}
+.crop {
+  width: 100%;
+  height: 300px;
+}
+.crop img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.navbar-social {
+  margin-right: 5px;
+}
+#insta {
+  margin-right: 5px;
+}
+#twitter {
+  margin-right: 5px;
+}
+#gmail {
+  margin-right: 5px;
+}
+#youtube {
+  margin-right: 5px;
+}
+#line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -18px;
+  width: 50%;
+}
+#about-header {
+  text-align: center;
+  margin-top: 2px;
+}
+#about-text {
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: -2px;
+}
+#menu-header {
+  text-align: center;
+}
+#menu-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#survey-header {
+  text-align: center;
+}
+#header {
+  border: 4px solid #e8e8d5;
+}
+.title-text {
+  text-align: center;
+  background-color: #f2ecda;
+  padding: 4px;
+  border-radius: 10px;
+}
+#title {
+  margin-bottom: 10px;
+}
+#survey-form {
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+  background: #f5f4f2;
+  border: 4px solid #e8e7e6;
+}
+#text {
+  margin-top: -8px;
+  font-size: 12px;
+  margin-bottom: -2px;
+  text-align: center;
+}
+#name {
+  margin-bottom: 10px;
+}
+#email {
+  margin-bottom: 10px;
+}
+#dropdown {
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding: 3px;
+}
+#comments {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+#submit {
+  background: #ebe7df;
+  border-radius: 5px;
+  border: 1.5px solid #bfbcb4;
+  padding: 5px;
+}
